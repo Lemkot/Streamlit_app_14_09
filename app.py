@@ -91,7 +91,7 @@ prices_vix_index = historical_data_vix_index['Close']
 # Show the plot for 1 year historical prices for the SP500 index
 #-----------------------------------------------------------------
 
-st.header('‍Evolution of the S&P 500 index within last year)
+st.header('‍Evolution of the S&P500 front month index futures prices within last year')
 fig, ax = plt.subplots()
 prices_SP.plot(ax=ax)
 plt.ylabel('S&P 500 index')
@@ -103,7 +103,7 @@ st.pyplot(fig)
 # Show the plot for 1 year historical prices for the 10-year US Treasuries futures prices
 #-----------------------------------------------------------------------------------------
 
-st.header('‍Evolution of the 10-year US Treasuries futures prices within last year)
+st.header('‍Evolution of the 10-year US Treasuries futures prices within last year')
 fig, ax = plt.subplots()
 prices_10y_futures.plot(ax=ax)
 plt.ylabel('10-year US Treasuries futures prices')
@@ -115,7 +115,7 @@ st.pyplot(fig)
 # Show the plot for 1 year historical prices for the US dollar 3-month interest rate
 #-----------------------------------------------------------------------------------------
 
-st.header('‍Evolution of the US dollar 3-month interest rate within last year)
+st.header('‍Evolution of the US dollar 3-month interest rate within last year')
 fig, ax = plt.subplots()
 prices_3m_interest.plot(ax=ax)
 plt.ylabel('US dollar 3-month interest rate')
@@ -127,7 +127,7 @@ st.pyplot(fig)
 # Show the plot for 1 year historical prices for the US dollar 10-year interest rate
 #-----------------------------------------------------------------------------------------
 
-st.header('‍Evolution of the US dollar 10-year interest rate within last year)
+st.header('‍Evolution of the US dollar 10-year interest rate within last year')
 fig, ax = plt.subplots()
 prices_10y_interest.plot(ax=ax)
 plt.ylabel('US dollar 10-year interest rate')
@@ -139,7 +139,7 @@ st.pyplot(fig)
 # Show the plot for 1 year historical prices for the VIX Index
 #-----------------------------------------------------------------------------------------
 
-st.header('‍Evolution of the VIX Index within last year)
+st.header('‍Evolution of the VIX Index within last year')
 fig, ax = plt.subplots()
 prices_vix_index.plot(ax=ax)
 plt.ylabel('VIX Index')
